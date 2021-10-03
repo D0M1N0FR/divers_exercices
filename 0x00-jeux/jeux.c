@@ -214,6 +214,7 @@ int main(void)
 				}	
 				else
 					printf("\nVous avez trouve le nombre mystere en %d coups!!!\n", coup2);
+
 			} while (nombre != nombreMystere1);
 		}
 
@@ -255,6 +256,7 @@ int main(void)
 				}	
 				else
 					printf("\nVous avez trouve le nombre mystere en %d coups!!!\n", coup2);
+
 			} while (nombre != nombreMystere2);
 		}
 
@@ -296,6 +298,7 @@ int main(void)
 				}	
 				else
 					printf("\nVous avez trouve le nombre mystere en %d coups!!!\n", coup2);
+					
 			} while (nombre != nombreMystere3);
 		}
 	}
