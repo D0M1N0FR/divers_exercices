@@ -16,11 +16,9 @@ int main(void)
 	nombreMystere3 = (rand() % (MAX3 - MIN1)) + MIN1;
 
 	//TITRE
-
 	printf("\\\\=== Bienvenue sur : Trouver le nombre mystere !!! ===//\n");
 
 	//CHOIX MODE DE JEU
-
 	do
 	{
 		printf("\nChoix du mode de jeu :\n\n");
@@ -45,7 +43,6 @@ int main(void)
 	printf("\n");
 
 	//MODE SOLO + CHOIX DE LA DIFFICULTE
-
 	if (mode == 1)
 	{
 		do
@@ -74,7 +71,6 @@ int main(void)
 		} while (dif < 1 || dif > 3);
 
 		//DIFFICULTE 1
-
 		if (dif == 1)
 		{
 			do
@@ -99,7 +95,6 @@ int main(void)
 		}
 
 		//DIFFICULTE 2
-
 		else if (dif == 2)
 		{
 			do
@@ -124,7 +119,6 @@ int main(void)
 		}
 
 		//DIFFICULTE 3
-
 		else
 		{
 			do
@@ -150,7 +144,6 @@ int main(void)
 	}
 
 	//MODE MULTI + NOMS JOUEURS + CHOIX DE LA DIFFICULTE
-
 	else
 	{
 		printf("Nom Joueur 1 :\n\n");
@@ -184,13 +177,11 @@ int main(void)
 		} while (dif < 1 || dif > 3);
 
 		//DIFFICULTE 1
-
 		if (dif == 1 )
 		{
 			do
 			{
 				//JOUEUR 1
-
 				printf("\n%d : Quel est le nombre mystere ?\n\n", joueur1);
 				scanf("%d", &nombre);
 
@@ -208,7 +199,6 @@ int main(void)
 					printf("\nVous avez trouve le nombre mystere en %d coups!!!\n", coup1);
 
 				//JOUEUR 2
-
 				printf("\n%d : Quel est le nombre mystere ?\n", joueur2);
 				scanf("%d", &nombre);
 
@@ -229,13 +219,11 @@ int main(void)
 		}
 
 		//DIFFICULTE 2
-
 		if (dif == 2 )
 		{
 			do
 			{
 				//JOUEUR 1
-
 				printf("\n%d : Quel est le nombre mystere ?\n\n", joueur1);
 				scanf("%d", &nombre);
 
@@ -253,7 +241,6 @@ int main(void)
 					printf("\nVous avez trouve le nombre mystere en %d coups!!!\n", coup1);
 
 				//JOUEUR 2
-
 				printf("\n%ds : Quel est le nombre mystere ?\n", joueur2);
 				scanf("%d", &nombre);
 
@@ -274,13 +261,11 @@ int main(void)
 		}
 
 		//DIFFICULTE 3
-
 		if (dif == 3 )
 		{
 			do
 			{
 				//JOUEUR 1
-
 				printf("\n%d : Quel est le nombre mystere ?\n\n", joueur1);
 				scanf("%d", &nombre);
 
@@ -298,7 +283,6 @@ int main(void)
 					printf("\nVous avez trouve le nombre mystere en %d coups!!!\n", coup1);
 
 				//JOUEUR 2
-				
 				printf("\n%ds : Quel est le nombre mystere ?\n", joueur2);
 				scanf("%d", &nombre);
 
