@@ -94,7 +94,7 @@ int main(void)
 			} while (nombre != nombreMystere1);
 		}
 
-		//DIFFICULte 2
+		//DIFFICULTE 2
 		else if (dif == 2)
 		{
 			do
