@@ -1,5 +1,16 @@
 #include <stdio.h>
 
+/**
+ * Ecrire un programme de rendu de monnaie. 
+ * En saisissant le montal total des achats puis la somme donnee, indiquer la monnaie a rendre 
+ * (en billets de 20, 10, 5 et peices de 2 et 1)
+ * 
+ * - S'assurer que la somme donnee est bien superieure a la somme achats
+ * - Gerer le cas ou on aurait paye egal aux auchats
+ * - Rendre le moins de billets/pieces possible (25 de monnaie > 1 billet de 20 + 1 billet de 5)
+ * - 0'operateur % (modulo) sera utilile pour cet exercice
+ */
+
 int main(void)
 {
     int donne = 0, rendu = 0, achat = 0;
