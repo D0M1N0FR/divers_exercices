@@ -7,35 +7,26 @@ int main(void)
 
     printf("Taper le montant total des achats :\n");
     scanf("%d", &achat);
-
     printf("Taper le montant donnee :\n");
     scanf("%d", &donne);
 
     if (donne == achat)
-    {
         printf("La caissiere ne vous rend rien.\n");
-    }
     else if (donne < achat)
         printf("Le compte n'y est pas !\n");
     else
     {
         rendu = donne - achat;
-
         bill20 = rendu / 20;
-        rendu = rendu % 20;
-
+        rendu %= 20;
         bill10 = rendu / 10;
-        rendu = rendu % 10;
-
+        rendu %= 10;
         bill5 = rendu / 5;
-        rendu = rendu % 5;
-
+        rendu %= 5;
         piece2 = rendu / 2;
-        rendu = rendu % 2;
-
+        rendu %= 2;
         piece = rendu / 1;
-        rendu = rendu % 1;
-
+        rendu %= 1;
         rendu = donne - achat;
 
         if (bill20 > 0)
